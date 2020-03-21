@@ -60,7 +60,13 @@
                       <li><a href="./"><strong>CASAMENTOS</strong><a/></li>
                       <li><a href="./"><strong>DOCES FINOS</strong><a/></li>
                       <li><a href="https://wa.me/5581989153678"><strong>CONTATE-NOS</strong><a/></li>
-
+                        <button id="goFS">Go fullscreen</button>
+<script>
+  var goFS = document.getElementById("goFS");
+  goFS.addEventListener("click", function() {
+      document.body.requestFullscreen();
+  }, false);
+</script>
                     </ul>
                   </div>
               </nav>
